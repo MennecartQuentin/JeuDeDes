@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+        <div class="player-0-panel active">
+            <div class="player1" id="name-0">Joueur 1</div>
+            <div class="player-score" id="score-0">0</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Score</div>
+                <div class="player-current-score" id="current-0">0</div>
+            </div>
+        </div>
+
+        <div class="player-1-panel">
+            <div class="player2" id="name-1">Joueur 2</div>
+            <div class="player-score" id="score-1">0</div>
+            <div class="player-current-box">
+                <div class="player-current-label">score</div>
+                <div class="player-current-score" id="current-1">0</div>
+            </div>
+        </div>
+
+        <button class="btn-new"><em class="ion-ios-plus-outline"></em>Nouveau jeu</button>
+        <button class="btn-roll"><em class="ion-ios-loop"></em>Lancer le dés</button>
+        <button class="btn-hold"><em class="ion-ios-download-outline"></em>Garder</button>
+        <div class="container bottom">
+            <button class="btn-name" onclick="editNames()"><em class="ion-ios-loop"></em>Changer de nom</button>
+        </div>
+
+
+        <img src="/dice5.png" alt="Dice" class="dice">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
